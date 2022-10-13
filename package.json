@@ -1,0 +1,25 @@
+{
+  "name": "textlint-examples",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedElwerdany/textlint-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedElwerdany/textlint-examples/issues"
+  },
+  "homepage": "https://github.com/AhmedElwerdany/textlint-examples#readme",
+  "dependencies": {
+    "textlint": "^12.2.2",
+    "textlint-rule-no-todo": "^2.0.1"
+  }
+}
