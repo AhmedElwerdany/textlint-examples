@@ -1,7 +1,9 @@
 import path from 'path';
 import { TextLintEngine } from 'textlint';
 
-const engine = new TextLintEngine();
+const engine = new TextLintEngine({
+  rules: ['no-todo'],
+});
 
 const run = (path) => engine.executeOnFiles([path]);
 

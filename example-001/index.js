@@ -3,6 +3,7 @@ import { TextLintEngine } from 'textlint';
 
 const engine = new TextLintEngine(
     {
+        rules: ['no-todo'],
         formatterName: "pretty-error"
     }
 );
