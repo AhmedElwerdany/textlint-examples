@@ -1,9 +1,7 @@
 import path from 'path';
 import { TextLintEngine } from 'textlint';
 
-const engine = new TextLintEngine({
-  formatterName: "pretty-error",
-});
+const engine = new TextLintEngine();
 
 const run = (path) => engine.executeOnFiles([path]);
 
